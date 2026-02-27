@@ -1,0 +1,16 @@
+
+:root {--primary:#5a43ff;--secondary:#17b8ff;--dark:#0f172a;}
+*{scroll-behavior:smooth}body{font-family:Inter,system-ui,sans-serif;background:linear-gradient(180deg,#fff,#f7fbff 50%,#f8f8ff)}
+.navbar{backdrop-filter:blur(12px);background:rgba(255,255,255,.88)!important;border-bottom:1px solid rgba(0,0,0,.06)}
+.hero{padding:8rem 0 5rem;background:radial-gradient(circle at top right,#dbeafe,transparent 35%),radial-gradient(circle at top left,#ede9fe,transparent 30%)}
+.glass{background:rgba(255,255,255,.75);border:1px solid rgba(255,255,255,.8);backdrop-filter:blur(10px);box-shadow:0 10px 30px rgba(15,23,42,.08);border-radius:1rem}
+.section{padding:5rem 0}.card-hover{transition:all .35s ease;border:1px solid #e2e8f0}.card-hover:hover{transform:translateY(-8px);box-shadow:0 16px 40px rgba(15,23,42,.13)}
+.gradient-text{background:linear-gradient(90deg,var(--primary),var(--secondary));-webkit-background-clip:text;color:transparent}
+.btn-gradient{background:linear-gradient(90deg,var(--primary),var(--secondary));color:#fff;border:none;padding:.75rem 1.25rem;border-radius:999px}.btn-gradient:hover{color:#fff;transform:translateY(-2px)}
+.breadcrumb-wrap{background:#f1f5f9;padding:1rem;border-radius:.75rem}.parallax{background-attachment:fixed;background-size:cover;position:relative;color:#fff}.parallax::before{content:'';position:absolute;inset:0;background:rgba(15,23,42,.6)}.parallax .container{position:relative;z-index:2}
+.counter{font-size:2rem;font-weight:700}.faq .accordion-button:not(.collapsed){background:#eef2ff}
+footer{background:#0b1120;color:#e2e8f0}footer a{color:#cbd5e1;text-decoration:none}footer a:hover{color:#fff}
+#scrollProgress{position:fixed;top:0;left:0;height:4px;background:linear-gradient(90deg,var(--primary),var(--secondary));z-index:2000;width:0}
+.float-btn{position:fixed;right:20px;z-index:1500;border-radius:50px;padding:.7rem 1rem;color:#fff;text-decoration:none}.whatsapp{bottom:90px;background:#25D366}.call{bottom:30px;background:#2563eb}
+#backTop{position:fixed;left:20px;bottom:30px;display:none;z-index:1200}.portfolio img{transition:transform .4s}.portfolio a:hover img{transform:scale(1.05)}
+.sticky-mobile-cta{display:none}@media (max-width:768px){.hero{padding-top:6rem}.sticky-mobile-cta{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:1600;background:#fff;border-top:1px solid #e2e8f0;justify-content:space-around;padding:.5rem}body{padding-bottom:70px}}
